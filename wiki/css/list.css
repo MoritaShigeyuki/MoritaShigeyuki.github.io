@@ -1,0 +1,99 @@
+.top-bar {
+    background-color: rgb(10, 10, 10);
+    color: rgb(255, 0, 0);
+    border-bottom: solid 3px rgb(175, 0, 0);
+    border-top: solid 3px rgb(175, 0, 0);
+    border-left: solid 3px rgb(175, 0, 0);
+    border-right: solid 3px rgb(175, 0, 0);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar img {
+    height: 50px;
+}
+
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.top-bar a:hover {
+    font-size: 19px;
+    text-decoration: underline;
+}
+
+h1 {
+    color: rgb(175, 0, 0);
+    margin-left: 25px;
+    font-size: 35px;
+}
+
+h2 {
+    color: rgb(175, 0, 0);
+    margin-left: 25px;
+    font-size: 30px;
+}
+
+h3 {
+    color: rgb(175, 0, 0);
+    margin-left: 25px;
+    font-size: x-large;
+}
+
+h4 {
+    color: rgb(175, 0, 0);
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+hr {
+    color: rgb(175, 0, 0);
+    margin-top: 15px;
+}
+
+body {
+    background-color: rgb(10, 10, 10);
+}
+
+a { 
+    margin-left: 50px;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+    text-decoration-color: none;
+    color: rgb(200, 25, 25);
+}
+
+a:hover {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgb(175, 0, 0);
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.linha-par {
+    background-color: #f2f2f2;
+}
+
+.linha-impar {
+    background-color: #ffffff;
+}
