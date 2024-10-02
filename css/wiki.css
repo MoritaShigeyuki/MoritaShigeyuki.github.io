@@ -1,0 +1,181 @@
+.top-bar {
+    background-color: rgb(10, 10, 10);
+    color: rgb(255, 0, 0);
+    border-bottom: solid 3px rgb(175, 0, 0);
+    border-top: solid 3px rgb(175, 0, 0);
+    border-left: solid 3px rgb(175, 0, 0);
+    border-right: solid 3px rgb(175, 0, 0);
+    padding: 10px 20px;
+    /* Padding for spacing */
+    display: flex;
+    /* Flexbox layout */
+    justify-content: space-between;
+    /* Space between logo and link */
+    align-items: center;
+    /* Center items vertically */
+}
+
+.top-bar img {
+    height: 50px;
+    /* Adjust the height of the logo */
+}
+
+.top-bar a {
+    color: white;
+    /* Link color */
+    text-decoration: none;
+    /* Remove underline */
+    font-size: 20px;
+    /* Font size for link */
+}
+
+.top-bar a:hover {
+    font-size: 19px;
+    text-decoration: underline;
+    /* Underline on hover */
+}
+
+.wiki-metadata {
+    display: table;
+    /* This facilitates most of the styling */
+    float: right;
+    /* Mandatory. Can use the left, I guess */
+    max-width: 500px;
+    /* Size of metadata pane */
+}
+
+.wiki-pic {
+    display: block;
+    /* puts the picture in its own block */
+    margin: 0 auto;
+    /* centers the portrait */
+}
+
+.wiki-table td {
+    border: 0;
+    /* Gets rid of the grey border Obsidian applies to the cells */
+}
+
+.wiki-metadata {
+    margin-left: 2em;
+    /* Space between your text and the metadata */
+    background-color: rgb(230, 230, 230);
+    border: 1px solid rgb(150, 0, 0);
+}
+
+.wiki-metadata h2 {
+    /* This is for the block at the top of the table, and you can have an unlimited number within your metadata */
+    background-color: rgb(150, 0, 0);
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    display: table-row;
+}
+
+.wiki-table tr td:nth-child(1) {
+    /* Your first cell in each row, e.g. 'Full Name'. Use nth-child(2) to style normal text */
+    font-weight: bold;
+    padding-right: 0.5em;
+    /* Spacing between the text in each row */
+}
+
+.card-container {
+    display: flex;
+    gap: 15px; /* Space between cards */
+    flex-wrap: wrap; /* Allows cards to wrap to the next line if the viewport is too small */
+    max-width: 100%; /* Ensures the container doesn’t exceed the viewport width */
+    margin-left: 25px;
+}
+
+.card {
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(150, 0, 0);
+    border-radius: 8px;
+    width: 120px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid rgb(150, 0, 0);
+}
+
+.card a {
+    margin: 5px 0; /* Reduce the top and bottom margin to minimize space */
+    padding: 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(200, 0, 0);
+}
+
+.card a:hover {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+h1 {
+    color: rgb(175, 0, 0);
+    margin-left: 25px;
+    font-size: 35px;
+}
+
+h2 {
+    color: rgb(175, 0, 0);
+    margin-left: 25px;
+    font-size: 30px;
+}
+
+h3 {
+    color: rgb(175, 0, 0);
+    margin-left: 25px;
+    font-size: x-large;
+}
+
+h4 {
+    color: rgb(175, 0, 0);
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+hr {
+    color: rgb(175, 0, 0);
+    margin-top: 15px;
+}
+
+.wiki {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+img {
+    max-height: 750px;
+    max-width: 350px;
+}
+
+body {
+    background-color: rgb(10, 10, 10);
+}
+
+p {
+    color: rgb(240, 240, 240);
+    margin-left: 25px;
+    font-size: 19px;
+    text-indent: 15px;
+}
+
+a { 
+    margin-left: 50px;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+    text-decoration-color: none;
+    color: rgb(200, 25, 25);
+}
+
+a:hover {
+    font-weight: bold;
+    font-size: 22px;
+}

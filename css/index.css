@@ -1,0 +1,105 @@
+.top-bar {
+    background-color: rgb(10, 10, 10);
+    color: rgb(255, 0, 0);
+    border-bottom: solid 3px rgb(175, 0, 0);
+    border-top: solid 3px rgb(175, 0, 0);
+    border-left: solid 3px rgb(175, 0, 0);
+    border-right: solid 3px rgb(175, 0, 0);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar img {
+    height: 50px;
+}
+
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.top-bar a:hover {
+    font-size: 19px;
+    text-decoration: underline;
+}
+
+.card-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-left: 25px;
+}
+
+.card {
+    background-color: rgb(230, 230, 230);
+    border: 1px solid rgb(150, 0, 0);
+    border-radius: 8px;
+    width: 120px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid rgb(150, 0, 0);
+}
+
+.card a {
+    margin: 5px 0;
+    padding: 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(200, 0, 0);
+}
+
+.card a:hover {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+h1 {
+    color: rgb(175, 0, 0);
+    margin-left: 25px;
+    font-size: 35px;
+}
+
+h3 {
+    color: rgb(175, 0, 0);
+    margin-left: 25px;
+    font-size: x-large;
+}
+
+h4 {
+    color: rgb(175, 0, 0);
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+hr {
+    color: rgb(175, 0, 0);
+    margin-top: 15px;
+}
+
+body {
+    background-color: rgb(10, 10, 10);
+}
+
+a { 
+    margin-left: 50px;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+    text-decoration-color: none;
+    color: rgb(200, 25, 25);
+}
+
+a:hover {
+    font-weight: bold;
+    font-size: 22px;
+}
